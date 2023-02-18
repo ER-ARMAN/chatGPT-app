@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.get("/", async (req, res) => {
     res.status(200).send({
-        message:"this is chatGPT AI App Arman",
+        message:"this is chatGPT AI App Arman1",
     });
 });
 

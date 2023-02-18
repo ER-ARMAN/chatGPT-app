@@ -13,7 +13,7 @@ function App() {
     }, [posts]);
     const fetchBotResponse = async () => {
         const { data } = await axios.post(
-             "http://localhost:4000",          
+             "https://arman-cpt.onrender.com",          
             { input },
             {
                 headers: {
